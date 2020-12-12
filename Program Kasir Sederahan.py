@@ -73,3 +73,18 @@ if nomor==3:
     total2=total2+(porsi2*3000)
     print ("Hasilnya = ", total2)
     jenis2=("Es Kopi")
+
+uang=int(input("\nUang Tunai: Rp."))
+totalsemua=total1+total2    
+print("\n=========================")
+print("======= S T R U K =======")
+print("=========================")
+print ("=== Nama      :",nama)
+print ("=== Beli      :",porsi1,jenis1)
+print ("===            ",porsi2,jenis2)
+print ("=== Tagihan   :Rp.",totalsemua)
+print ("=== Uang      :Rp.",uang)
+akhir=int(uang-totalsemua)
+print ("=== Kembalian :Rp.",akhir)
+print("=========================")
+print("=========================")
