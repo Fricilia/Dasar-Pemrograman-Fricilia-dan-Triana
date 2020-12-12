@@ -13,3 +13,13 @@ nama = input("Masukkan nama Konsumen: ")
 print ("Nama Konsumen :", nama)
 print("")
 print ("Menu Makanan")
+
+
+
+def pilihan(i):
+        switcher={
+                1:'----Nasi Goreng 15000----',
+                2:'----Soto 7000----',
+                3:'----Mie Ayam 10000----'
+             }
+        return switcher.get(i,"Masukan Pilihan yang Benar!")
