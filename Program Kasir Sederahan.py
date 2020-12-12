@@ -23,3 +23,25 @@ def pilihan(i):
                 3:'----Mie Ayam 10000----'
              }
         return switcher.get(i,"Masukan Pilihan yang Benar!")
+
+
+print("1. Nasi Goreng")
+print("2. Soto")
+print("3. Mie Ayam")
+nomor=int(input("Masukan Pilihan: "))
+menu=pilihan(nomor)
+print (menu)
+porsi1= int(input("Berapa Porsi: "))
+
+if nomor==1:
+    total1=total1+porsi1*15000
+    print ("Hasilnya = ", total1)
+    jenis1=("Nasi Goreng")
+if nomor==2:
+    total1=total1+porsi1*7000
+    print ("Hasilnya = ", total1)
+    jenis1=("Soto")
+if nomor==3:
+    total1=total1+porsi1*10000
+    print ("Hasilnya = ", total1)
+    jenis1=("Mie Ayam")
